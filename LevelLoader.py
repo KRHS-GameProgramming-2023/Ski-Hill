@@ -1,6 +1,8 @@
 import pygame, sys, math
 from rails import*
 from Bumps import*
+from Obstacles.py import*
+
 
 def loadLevel (lev):
     f = open("levels/"+lev, 'r')
